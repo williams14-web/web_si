@@ -1,0 +1,160 @@
+*{
+    margin: 2px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body{
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+    
+}
+
+header{
+    background-color: #4CAF50; /* Color del encabezado */
+    color: white;
+    padding: 10px;
+    text-align: center;
+    word-spacing: 5px;
+    line-height: 2cap ;
+    
+}
+
+
+
+
+table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        
+       
+       
+
+.clase1 article{
+    float: Center;
+}
+
+article{
+    float: left;
+    width: 15em;
+    height: 14em;
+    margin: 5px;
+    padding: 5px;
+    border: black 2px solid;
+    border-radius: 20px;
+    position:relative;
+    left:20px;
+    
+    
+  
+    
+}*
+
+.clearfix{
+    clear: both;
+}
+  
+h1{
+      text-shadow: #173459 1px 0 10px; 
+    
+  }
+  
+  .h2{
+  text-shadow: #173459 1px 0 10px;
+      
+  }
+  
+  
+  h2,h3{
+  text-shadow: #173459 1px 0 10px;
+      
+  }
+  
+  .clase3{
+    float: left;
+    width: 18em;
+    height: 20em;
+    margin: 5px;
+    padding: 5px;
+    border: black 2px solid;
+    border-radius: 20px;
+  }
+  
+  
+.boton{
+    padding: 8px 15px;
+    background-color: #d31b24;
+    color: white;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.boton:hover{
+    background-color: #45a049;
+}
+
+.boton:active{
+    background-color: #3a8e41;
+}
+
+
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+
+
+textarea{
+    width: 58%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+
+input[type="text"],
+
+
+textarea:focus{
+    border-color: #007BFF;
+      
+}
+
+
+
+footer {
+    background-color: #333; /* Color del pie de página */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+}
+
+/*.inline{
+    position:relative;
+    left:20px;
+    top:25px;
+}*/

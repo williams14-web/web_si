@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Título de la página</title>
+    
+    <script>
+        function enviarWhatsApp() {
+            const nombre = document.getElementById('nombre').value;
+            const telefono = document.getElementById('telefono').value;
+            const mensaje = document.getElementById('mensaje').value;
+
+            // Formatear el mensaje
+            const textoMensaje = `Hola, soy ${nombre}. ${mensaje}`;
+            const urlWhatsApp = `https://wa.me/${5354792019}?text=${encodeURIComponent(textoMensaje)}`;
+
+            // Abrir la URL en una nueva pestaña
+            window.open(urlWhatsApp, '_blank');
+        }
+    </script>
+    
+    
+    
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido</h1>
+        <h2 class="h2">Soluciones Informáticas</h2>
+        
+    </header>
+    <div class="container">
+        <div class="clase1"   >
+            <section>
+                <article>
+                    <h2>Instalación de Sistemas Operativos</h2>
+                    <img src="img/Inst_sof.jpg" alt="" width="100px">
+                    <p>Instalamos el sistema operativo de su preferencia</p>
+                </article>
+                
+                <article>
+                    <h2>Instalación de Microsoft Office</h2>
+                    <img src="img/Office.png" alt="" width="100px">
+                    <p>Instalación de software de su preferencia </p>
+                </article>
+
+                <article>
+                    <h2>Instalación de Antivirus</h2>
+                    <img src="img/Antivirus.jpg" alt="" width="100px">
+                    <p>Brindamos servicio de actualización </p>
+                </article>
+
+                <article>
+                    <h2>Desarrollo Web </h2>
+                    <img src="img/Desarrollo_web.jpg" alt="" width="100px">
+                    <p>Desarrollo de aplicaciones web Ventas, Promociones y Otros </p>
+                </article>
+            </section>
+        </div>
+        
+        <div>
+            <br><br><br>
+        </div>
+        
+     
+        
+        <!-- Otro panel-->
+        <div class="clase2">
+            <table >
+                <tr>
+                    <th>Probucto</th>
+                    <th>Categoría</th>
+                    <th>Importe</th>
+                </tr>
+                <tr>
+                    <td>Instalación de Sistema Operativo</td>
+                    <td>Windows, Android, Linos, Mac</td>
+                    <td>$ 1000.00</td>
+                    
+                </tr>
+                <tr>
+                    <td>Instalación de Microsoft Office</td>
+                    <td>Otros programas</td>
+                    <td>$ 250.00</td>
+                </tr>
+                
+                <tr>
+                    <td>Instalación de Antivirus </td>
+                    <td>Las actualizaciones son contratadas</td>
+                    <td>$ 250.00</td>
+                </tr>
+                
+                <tr>
+                    <td>Desarrollo Web</td>
+                    <td>Servicio de Desarrollo de Aplicaciones Web segun las nasecidades del cliente</td>
+                    <td>En correspondencia a la aplicación</td>
+                </tr>
+            </table>
+            
+        </div>
+        <div class="clearfix"> </div>
+
+        <div class="clase3">
+
+            <h3>Contáctenos por Whatsapp</h3><br>
+            
+            <label>Nombre y Apellido</label>
+            <input type="text" name="nombre" placeholder="Nombre y Apellido..."><br>
+            
+            <label>Teléfono</label>
+            <input type="text" name="teléfono" placeholder="Teléfono..."><br>
+            
+            <label>Mensaje</label>
+            <textarea></textarea><br>
+            
+            <button class="boton" type="submit">Enviar a WhatsApp</button><br><br><br>
+        </div>
+
+        
+    </div>
+  <?php
+    
+    
+    
+    
+    
+    
+    
+    <footer>
+            <p>Soluciones informáticas © 2025</p>
+        </footer>
+</body>
+</html>
